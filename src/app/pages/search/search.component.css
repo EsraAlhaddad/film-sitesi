@@ -1,0 +1,21 @@
+button
+{
+    background-color: rgb(117, 55, 117);
+    color: #ffffff;
+}
+
+button:hover
+{
+    background-color: pink;
+    color: #ffffff;
+}
+
+img{
+    width: 100%;
+    cursor: pointer; /*imleç*/
+}
+
+h5
+{
+    color: rgb(51, 2, 51);
+}

@@ -1,0 +1,12 @@
+.navbar .navbar-brand  /*e film sınıfı*/
+{
+    color: rgb(132, 55, 132);
+    font-weight: bold;
+    font-size: xx-large;
+
+}
+
+.navbar-nav .nav-item .nav-link   /* fav,ana,ara*/
+{
+    color:rgb(132, 55, 132);
+}

@@ -1,0 +1,31 @@
+
+ .rowposter{  
+    display: flex;  /* film kapakları dizmek için */
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.rowimg
+{
+    max-height: 100px;
+    object-fit: contain;/* tüm alanı kaplamasını sağlar.*/
+    width: 100%;
+    box-sizing: content-box;
+    transition: transform 450ms; /*resim üzerine geldiginde efekt verir.450ms süre ile gerçekleşir*/
+    margin-right: 7px;
+}
+
+.rowimg:hover
+{
+    transform: scale(1.09);/* resmi büyütür*/
+    cursor: pointer;/*imleç gösterir*/
+}
+
+.largeposter{
+    max-height: 300px; 
+}
+
+.rowposter::-webkit-scrollbar
+{
+    display: none; /*alt kaydırma çubuğunu gizlemek için*/
+}
